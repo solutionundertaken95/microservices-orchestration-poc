@@ -1,5 +1,13 @@
 # Microservices Orchestration POC
 
+[![Java](https://img.shields.io/badge/Java-21-007396.svg?logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/21/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F.svg?logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![Netflix Conductor](https://img.shields.io/badge/Netflix%20Conductor-Orchestration-E50914.svg)](https://github.com/conductor-oss/conductor)
+[![Redis](https://img.shields.io/badge/Redis-State%20Store-DC382D.svg?logo=redis&logoColor=white)](https://redis.io/)
+[![H2 Database](https://img.shields.io/badge/H2-In--Memory%20DB-004088.svg)](https://www.h2database.com/)
+[![Docker Compose](https://img.shields.io/badge/Docker-Compose-2496ED.svg?logo=docker&logoColor=white)](https://docs.docker.com/compose/)
+[![Gradle](https://img.shields.io/badge/Build-Gradle-02303A.svg?logo=gradle&logoColor=white)](https://gradle.org/)
+
 A Java proof of concept for coordinating payment-style operations across independently running microservices, with [Netflix Conductor](https://github.com/conductor-oss/conductor) as the workflow orchestration platform.
 
 The repository contains three Spring Boot services and a local Conductor setup. It explores transaction idempotency, service boundaries, and compensation endpoints in a distributed workflow.
